@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-esp",
+	"version": "1.0.0",
+	"name": "Simple ESP",
+	"description": "A small client-side ESP menu for players, tracers, and any block or entity you pick.",
+	"authors": [
+		"Dawoud"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/simple-esp/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.dawoud.simpleesp.SimpleEspClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
